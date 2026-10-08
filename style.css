@@ -10,6 +10,8 @@ body {
 
 main {
   max-width: 500px;
+  position: relative;
+  top: 20px;
 }
 
 h1 {
@@ -18,4 +20,41 @@ h1 {
 
 p {
   line-height: 1.5;
+}
+
+/* .div {
+  width: 200px;
+  height: 400px;
+  position: relative;
+
+} */
+
+#box1 {
+background-color: aqua;
+width: 100px;
+height: 100px;
+top: 100px;
+left: 100px;
+position: absolute;
+margin: 2px;
+}
+
+#box2 {
+  background-color: rgb(65, 19, 171);
+width: 100px;
+height: 100px;
+top: 220px;
+left: 220px;
+position: absolute;
+margin: 2px;
+}
+
+#box3 {
+  background-color: rgb(69, 101, 101);
+width: 100px;
+height: 100px;
+top: 340px;
+left: 340px;
+position: absolute;
+margin: 2px;
 }
